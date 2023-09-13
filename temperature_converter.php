@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-    <h2>Temperature Converte</h2>
+    <h2>Temperature Converter</h2>
         <div class ="row m-auto">
             <div class="col-md-6">
             <form method="POST" action="">
