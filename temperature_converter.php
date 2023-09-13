@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-    <h2>Temperature Converter</h2>
+    <h2>Temperature Converte</h2>
         <div class ="row m-auto">
             <div class="col-md-6">
             <form method="POST" action="">
@@ -37,11 +37,11 @@ if ( $_SERVER["REQUEST_METHOD"] == "POST" ) {
     $fahrenheit = ( $temp * 9 / 5 ) + 32;
 
     switch ( $con_temp ) {
-    case 'Celsius':?>
-        <h3 class ="mt-3"><?php echo "Celsius : " . $celsius . "°C";?></h3>
+    case 'Celsius': ?>
+        <h3 class ="mt-3"><?php echo "Celsius : " . $celsius . "°C"; ?></h3>
        <?php break;
-    case 'Fahrenheit':?>
-        <h3 class ="mt-3"><?php echo "Fahrenheit : " . $fahrenheit . "°F";?></h3>
+    case 'Fahrenheit': ?>
+        <h3 class ="mt-3"><?php echo "Fahrenheit : " . $fahrenheit . "°F"; ?></h3>
 
     <?php }
 
@@ -56,14 +56,3 @@ if ( $_SERVER["REQUEST_METHOD"] == "POST" ) {
 
 </body>
 </html>
-
-
-<?php
-/*
-$temperature = 25;
-$fahrenheit = ($celsius * 9/5) + 32;
-
-echo "Celsius:". $celsius."°C"."<br>";
-echo "Fahrenheit:". $fahrenheit."°F"."<br>";
- */
-?>
